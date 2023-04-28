@@ -56,4 +56,13 @@ public class Aplicacion {
         }
         }while(adivina!=n);
     }
+public   static void ingresoDeDosNumero(String args[]){
+      int  i,j;
+      int  resp; 
+      i=20;
+      j=8;
+      resp=i+j;
+      System.out.println(resp);
+      System.out.println(" Realizo por: FJIR");
+        }   
 }
