@@ -21,7 +21,7 @@ public class Aplicacion {
        //Aplicacion.metodo3();
         //Aplicacion.Numeroparoinpar();
         //Aplicacion.factorial(args);
-       // Aplicacion.main(args);
+       Aplicacion.sumadepareimpar();
     }
     
     public static void metodo1(){
@@ -65,7 +65,7 @@ public class Aplicacion {
         int n=(int)(Math.random()*10);
         int adivina;
         do{
-        System.out.println(n+"ingresele numero");
+        System.out.println("ingresele numero");
          adivina=leer.nextInt();
         if (adivina==n) {
             System.out.println("par ");
@@ -85,6 +85,10 @@ public class Aplicacion {
                 fact*=ind;
     }
           System.out.println("el factorial es :" +fact );  
+    }
+
+    private static void sumadepareimpar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
            }
       class  mayorMenor {
