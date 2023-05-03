@@ -14,9 +14,14 @@ import java.util.Scanner;
 public class Aplicacion {
      static Scanner leer = new Scanner(System.in);
     
-    public static void main(String[] args) {
-               Aplicacion.adivinarNumero();
-        
+    public static void main(String[] args) {          
+//Aplicacion.adivinarNumero();
+       //Aplicacion.metodo1();
+       //Aplicacion.metodo2();
+       //Aplicacion.metodo3();
+        //Aplicacion.Numeroparoinpar();
+        //Aplicacion.factorial(args);
+       // Aplicacion.main(args);
     }
     
     public static void metodo1(){
@@ -69,7 +74,7 @@ public class Aplicacion {
         }
         }while(adivina!=n);
     }
-           public static void factorial (String[] args){
+           public static void factorial(){
         Scanner teclado;
         teclado = new Scanner(System.in);
         int fact = 1;
@@ -81,9 +86,9 @@ public class Aplicacion {
     }
           System.out.println("el factorial es :" +fact );  
     }
-          }
+           }
       class  mayorMenor {
-          public static void main (String[] args){
+          public static void mayorMenor () {
               Scanner teclado = null;
               Scanner Scanner = new Scanner(System.in);
         int num1 ;
@@ -104,7 +109,7 @@ public class Aplicacion {
     }
           }
 class fibonaci{
-public static void main(String[] args){
+public static void fibonaci(){
     Scanner teclado = new Scanner(System.in);
         int num,anterior=0,actual=1 , fibo = 0;
         System.out.println("Imgrese el numero");
@@ -118,8 +123,9 @@ public static void main(String[] args){
                             System.out.println( fibo + ","  );
             }
     }
-class sumadepareimpar{
-public static void main (string []  arg){
+
+   
+    public static void sumadepareimpar(){
         Scanner teclado = new Scanner(System.in);
         int num;
         int supar=0;
@@ -137,6 +143,5 @@ public static void main (string []  arg){
           System.out.println("La suma de los pares es :"+supar);
            System.out.println("La suma de los numeros impar es :"+suimpar);
        }
-      
-   }
 }
+   
